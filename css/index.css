@@ -4,7 +4,7 @@
 width: 1380px;
 height: 610px;
 left: 30px;
-top: 110px;
+top: 105px;
 }
 
 h3{
@@ -68,4 +68,217 @@ left: 980px;
 top: 750px;
 
 background: #1E1313;
+}
+
+contact{
+  position: absolute;
+width: 1375px;
+height: 450px;
+left: 35px;
+top: 1290px;
+
+background: #FFFFFF;
+border: 4px solid #72A6C3;
+box-sizing: border-box;
+z-index: -10px;
+}
+
+margin{
+  position: absolute;
+width: 430px;
+height: 500px;
+left: 31px;
+top: 1310px;
+}
+
+head1{
+  position: absolute;
+width: 400px;
+height: 41px;
+left: 190px;
+top: 1420px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+head2{
+
+position: absolute;
+width: 500px;
+height: 27px;
+left: 190px;
+top: 1480px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 27px;
+
+color: #000000;
+
+}
+
+head3{
+  position: absolute;
+width: 400px;
+height: 41px;
+left: 880px;
+top: 1355px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.email{
+  position: absolute;
+width: 30px;
+left: 195px;
+top: 1549px;
+}
+
+email{
+  position: absolute;
+width: 244px;
+height: 27px;
+left: 240px;
+top: 1550px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+message{
+  position: absolute;
+width: 300px;
+height: 215px;
+left: 880px;
+top: 1540px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 85px;
+}
+
+name{
+  position: absolute;
+width: 300px;
+height: 215px;
+left: 880px;
+top: 1380px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 85px;
+}
+
+emailaddress{
+  position: absolute;
+width: 300px;
+height: 215px;
+left: 880px;
+top: 1440px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 85px;
+}
+
+submit{
+  position: absolute;
+height: 150px;
+left: 1013px;
+top: 1649px;
+color: white;
+z-index: 10;
+font-family: sans-serif;
+
+}
+
+submitbox{
+  position: absolute;
+width: 118px;
+height: 38px;
+left: 980px;
+top: 1640px;
+
+background: #72A6C3;
+border-radius: 18px;
 }
