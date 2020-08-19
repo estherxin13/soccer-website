@@ -1,3 +1,31 @@
+a{
+text-decoration: none;
+color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.05);
+}
+
+
+
 h1{
   position: absolute;
 width: 600px;
@@ -32,9 +60,9 @@ color: #7a7974;
 
 .logo{
   position: absolute;
-  width: 85px;
+  width: 80px;
   left: 25px;
-  top: 17px;
+  top: 15px;
 }
 
 n1{
@@ -102,6 +130,21 @@ line-height: 27px;
 color: #000000;
 }
 
+slogan{
+  position: absolute;
+width: 211px;
+height: 27px;
+left: 110px;
+top: 45px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 27px;
+
+color: #000000;
+}
 /* line{
   position: absolute;
 width: 1430px;
