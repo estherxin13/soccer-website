@@ -154,3 +154,54 @@ top: 0px;
 
 border: 7px solid #72A6C4;
 }
+bottom{
+  position: absolute;
+width: 1468px;
+height: 368px;
+left: -24px;
+top: 1820px;
+
+background: rgba(0, 0, 0, 0.13);
+}
+
+organization{
+  position: absolute;
+width: 172px;
+height: 28px;
+left: 139px;
+top: 1900px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+color: #686161;
+}
+
+orgdescription{
+  position: absolute;
+width: 514px;
+height: 117px;
+left: 139px;
+top: 1950px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+
+color: #686161;
+}
+
+line{
+  position: absolute;
+width: 1440px;
+height: 0px;
+left: 0px;
+top: 2150px;
+
+border: 3px solid #686161;
+}
