@@ -1,3 +1,13 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 line{
   position: absolute;
 width: 1440px;
@@ -5,7 +15,7 @@ height: 0px;
 left: 0px;
 top: 110px;
 
-border: 6px solid #72A6C3;
+border: 2px solid black;
 }
 
 quote1{
@@ -314,7 +324,7 @@ height: 0px;
 left: 0px;
 top: 1175px;
 
-border: 2px solid #72A6C3;
+border: 2px solid #253c5b;
 }
 
 hours{
@@ -371,8 +381,20 @@ color: #686161;
 
 .mainlogo{
   position: absolute;
-width: 520px;
-left: -35px;
+width: 440px;
+left: 15px;
 top: 140px;
+z-index: -20;
 
+}
+
+headerbox{
+  position: absolute;
+  width: 1440px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  z-index: -10;
+
+  background: #FFFFFF;
 }
