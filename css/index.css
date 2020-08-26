@@ -21,6 +21,9 @@ width: 1380px;
 height: 610px;
 left: 30px;
 top: 105px;
+
+border: 4px solid black;
+box-sizing: border-box;
 }
 
 h3{
@@ -58,18 +61,18 @@ color: #FFFFFF;
 
 rec{
   position: absolute;
-width: 430px;
+width: 435px;
 height: 500px;
-left: 503px;
+left: 501px;
 top: 750px;
 
-border: 6px solid black;
+border: 4px solid black;
 box-sizing: border-box;
 }
 
 .soccer{
   position: absolute;
-width: 260px;
+width: 265px;
 height: 68px;
 left: 578px;
 top: 970px;
@@ -91,7 +94,7 @@ height: 500px;
 left: 985px;
 top: 750px;
 
-border: 6px solid black;
+border: 4px solid black;
 box-sizing: border-box;
 }
 
@@ -119,7 +122,7 @@ height: 500px;
 left: 30px;
 top: 750px;
 
-border: 6px solid black;
+border: 4px solid black;
 box-sizing: border-box;
 }
 
@@ -148,7 +151,7 @@ left: 35px;
 top: 1300px;
 
 background: #FFFFFF;
-border: 4px solid #72A6C3;
+border: 6px solid #72A6C3;
 box-sizing: border-box;
 z-index: -10px;
 }
@@ -358,7 +361,7 @@ bottom{
 width: 1455px;
 height: 320px;
 left: 0px;
-top: 1870px;
+top: 1820px;
 
 background: rgba(0, 0, 0, 0.13);
 }
@@ -368,7 +371,7 @@ organization{
 width: 172px;
 height: 28px;
 left: 139px;
-top: 1930px;
+top: 1880px;
 
 font-family: sans-serif;
 font-style: normal;
@@ -384,7 +387,7 @@ orgdescription{
 width: 514px;
 height: 117px;
 left: 139px;
-top: 1970px;
+top: 1920px;
 
 font-family: sans-serif;
 font-style: normal;
@@ -400,7 +403,7 @@ line{
 width: 1440px;
 height: 0px;
 left: 0px;
-top: 2150px;
+top: 2100px;
 
 border: 2px solid #72A6C3;
 }
@@ -410,7 +413,7 @@ hours{
 width: 172px;
 height: 28px;
 left: 885px;
-top: 1920px;
+top: 1870px;
 
 font-family: sans-serif;
 font-style: normal;
@@ -428,7 +431,7 @@ hoursdes{
 width: 337px;
 height: 133px;
 left: 883px;
-top: 1970px;
+top: 1910px;
 
 font-family: sans-serif;
 font-style: normal;
@@ -445,7 +448,7 @@ copyright{
 width: 546px;
 height: 20px;
 left: 17px;
-top: 2164px;
+top: 2113px;
 
 font-family: sans-serif;
 font-style: normal;
@@ -461,5 +464,5 @@ contactlink{
 width: 1375px;
 height: 450px;
 left: 35px;
-top: 1220px;
+top: 1165px;
 }
