@@ -63,6 +63,7 @@ color: #7a7974;
   width: 110px;
   left: 25px;
   top: 9px;
+  z-index: 20;
 }
 
 n1{
@@ -71,7 +72,7 @@ width: 59px;
 height: 27px;
 left: 760px;
 top: 50px;
-
+z-index: 30;
 font-family: sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -88,6 +89,7 @@ width: 215px;
 height: 27px;
 left: 860px;
 top: 50px;
+z-index: 30;
 
 font-family: sans-serif;
 font-style: normal;
@@ -104,6 +106,7 @@ width: 149px;
 height: 27px;
 left: 1080px;
 top: 50px;
+z-index: 30;
 
 font-family: sans-serif;
 font-style: normal;
@@ -120,6 +123,7 @@ width: 200px;
 height: 27px;
 left: 1242px;
 top: 50px;
+z-index: 30;
 
 font-family: sans-serif;
 font-style: normal;

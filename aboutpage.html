@@ -5,9 +5,12 @@
     <title>About Page</title>
     <link rel="stylesheet" type ="text/css" href="css/nav.css">
     <link rel="stylesheet" type ="text/css" href="css/aboutpage.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   </head>
   <body>
-        <div class="nav">
+
+        <div class="header" id="myHeader">
+          <headerbox></headerbox>
           <line></line>
           <a href="index.html"><img width="90"  src="photos/logo.png" class="logo"></a>
           <n1><a href="aboutpage.html" class="hvr-grow">About</a></n1>
@@ -17,9 +20,24 @@
           <contactlink><a id="top"></a></contactlink>
         </div>
 
-        <div class="leftside">
-          <line></line>
-          <img  src="photos/logo.png" class="mainlogo"></a>
+        <script>
+          window.onscroll = function() {myFunction()};
+
+          var header = document.getElementById("myHeader");
+          var sticky = header.offsetTop;
+
+          function myFunction() {
+            if (window.pageYOffset > sticky) {
+              header.classList.add("sticky");
+            } else {
+              header.classList.remove("sticky");
+            }
+          }
+        </script>
+
+        <div class="content">
+                  <div class="leftside">
+          <img  src="photos/logo3.png" class="mainlogo"></a>
           <quote1>
               “ Peter is the best coach I ever had and am ever going to have.
                He goes beyong a regular trainer and puts one-hundred percent
@@ -28,14 +46,6 @@
 
               <q1> -&nbsp;&nbsp;&nbsp;Esther Xin, 18 <br> &nbsp;&nbsp;&nbsp;&nbspDixie Soccer Club</q1>
 
-        <!--  <quote2>
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-               Etiam vulputate dignissim diam a pharetra.
-                Morbi id nibh libero. "
-               <br>
-               <br>
-               -    Esther Xin, 18, Dixie Soccer Club
-          </quote2> -->
         </div>
         <div class="rightside">
           <h1>About Our Organization</h1>
@@ -88,6 +98,8 @@
               <copyright>Copyright © 2020  PB Training Academy. Made with love by Esther Xin Designs</copyright>
 
           </div>
+
+        </div>
 
         </div>
 
