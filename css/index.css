@@ -352,3 +352,114 @@ top: 1640px;
 background: #72A6C3;
 border-radius: 18px;
 }
+
+bottom{
+  position: absolute;
+width: 1455px;
+height: 320px;
+left: 0px;
+top: 1870px;
+
+background: rgba(0, 0, 0, 0.13);
+}
+
+organization{
+  position: absolute;
+width: 172px;
+height: 28px;
+left: 139px;
+top: 1930px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+color: #686161;
+}
+
+orgdescription{
+  position: absolute;
+width: 514px;
+height: 117px;
+left: 139px;
+top: 1970px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+
+color: #686161;
+}
+
+line{
+  position: absolute;
+width: 1440px;
+height: 0px;
+left: 0px;
+top: 2150px;
+
+border: 2px solid #72A6C3;
+}
+
+hours{
+  position: absolute;
+width: 172px;
+height: 28px;
+left: 885px;
+top: 1920px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #686161;
+}
+
+hoursdes{
+  position: absolute;
+width: 337px;
+height: 133px;
+left: 883px;
+top: 1970px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+
+color: #686161;
+
+}
+
+copyright{
+  position: absolute;
+width: 546px;
+height: 20px;
+left: 17px;
+top: 2164px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 20px;
+
+color: #686161;
+}
+
+contactlink{
+  position: absolute;
+width: 1375px;
+height: 450px;
+left: 35px;
+top: 1220px;
+}
