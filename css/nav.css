@@ -26,57 +26,32 @@ a:hover{
 
 
 
-h1{
+
+
+logo{
   position: absolute;
-width: 600px;
-height: 95px;
-left: 150px;
-top: -30px;
-
-font-family: sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 70px;
-line-height: 95px;
-
-color: #000000;
-}
-
-h2{
-  position: absolute;
-width: 700px;
-height: 95px;
-left: 720px;
-top: -30px;
-
-font-family: sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 70px;
-line-height: 95px;
-
-color: #7a7974;
-}
-
-.logo{
-  position: absolute;
-  width: 110px;
-  left: 25px;
-  top: 9px;
-  z-index: 20;
+  width: 100px;
+  left: 20px;
+  top: 08px;
+  font-family: sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  z-index: 20px;
 }
 
 n1{
   position: absolute;
 width: 59px;
 height: 27px;
-left: 760px;
-top: 50px;
+left: 940px;
+top: 5px;
 z-index: 30;
 font-family: sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 17px;
+font-size: 15px;
 line-height: 27px;
 
 color: #000000;
@@ -87,14 +62,14 @@ n2{
 position: absolute;
 width: 215px;
 height: 27px;
-left: 860px;
-top: 50px;
+left: 1030px;
+top: 5px;
 z-index: 30;
 
 font-family: sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 17px;
+font-size: 15px;
 line-height: 27px;
 
 color: #000000;
@@ -102,16 +77,16 @@ color: #000000;
 
 n3{
   position: absolute;
-width: 149px;
+width: 200px;
 height: 27px;
-left: 1080px;
-top: 50px;
+left: 1120px;
+top: 5px;
 z-index: 30;
 
 font-family: sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 17px;
+font-size: 15px;
 line-height: 27px;
 
 color: #000000;
@@ -121,68 +96,19 @@ n4{
   position: absolute;
 width: 200px;
 height: 27px;
-left: 1242px;
-top: 50px;
+left: 1260px;
+top: 6px;
 z-index: 30;
 
 font-family: sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 17px;
-line-height: 27px;
-
-color: #000000;
-}
-
-slogan{
-  position: absolute;
-width: 211px;
-height: 27px;
-left: 110px;
-top: 45px;
-
-font-family: sans-serif;
-font-style: normal;
-font-weight: bold;
 font-size: 15px;
 line-height: 27px;
 
 color: #000000;
 }
-/* line{
-  position: absolute;
-width: 1430px;
-height: 0px;
-left: 0px;
-top: 0px;
 
-border: 7px solid #72A6C4;
-}
-bottom{
-  position: absolute;
-width: 1468px;
-height: 368px;
-left: -24px;
-top: 1820px;
-
-background: rgba(0, 0, 0, 0.13);
-}
-
-organization{
-  position: absolute;
-width: 172px;
-height: 28px;
-left: 139px;
-top: 1900px;
-
-font-family: sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 27px;
-/* identical to box height */
-color: #686161;
-}
 
 orgdescription{
   position: absolute;
