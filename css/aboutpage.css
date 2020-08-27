@@ -1,1 +1,173 @@
+h1{
+  position: absolute;
+width: 530px;
+height: 190px;
+left: 454px;
+top: 30px;
 
+font-family: sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 80px;
+line-height: 95px;
+text-align: center;
+
+color: #000000;
+}
+
+h2{
+  position: absolute;
+  width: 233px;
+  height: 41px;
+  left: 106px;
+  top: 350px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+}
+
+p1{
+  position: absolute;
+  width: 468px;
+  height: 216px;
+  left: 105px;
+  top: 430px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+
+}
+
+h3{
+  position: absolute;
+  width: 345px;
+  height: 41px;
+  left:0px;
+  top: 250px;
+
+  font-family:sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+}
+
+p2{
+  position: absolute;
+  width: 468px;
+  height: 216px;
+  left: 0px;
+  top: 330px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+
+}
+
+p3{
+
+  position: absolute;
+  width: 468px;
+  height: 216px;
+  left: 0px;
+  top: 470px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+
+box1{
+  position: absolute;
+width: 330px;
+height: 330px;
+left: 710px;
+top: 370px;
+
+background: #2A5C78;
+}
+
+box2{
+  position: absolute;
+width: 330px;
+height: 330px;
+left: 1040px;
+top: 370px;
+
+background: #72A6C3;
+}
+
+box3{
+  position: absolute;
+width: 330px;
+height: 330px;
+left: 710px;
+top: 700px;
+
+background: rgba(183, 44, 77, 0.72);
+}
+
+box4{
+  position: absolute;
+width: 330px;
+height: 330px;
+left: 1040px;
+top: 700px;
+
+background: rgba(183, 44, 77, 0.26);
+}
+
+line{
+  position: absolute;
+width: 1440px;
+height: 0px;
+left: 0px;
+top: 1090px;
+
+border: 2px solid #253c5b;
+}
+
+
+copyright{
+  position: absolute;
+width: 546px;
+height: 20px;
+left: 17px;
+top: 1095px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 20px;
+
+color: #686161;
+}
