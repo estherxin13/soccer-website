@@ -348,7 +348,7 @@ line-height: 85px;
 submit{
   position: absolute;
 height: 150px;
-left: 1013px;
+left: 1000px;
 top: 1760px;
 color: white;
 z-index: 10;
@@ -357,16 +357,6 @@ font-family: sans-serif;
 
 }
 
-submitbox{
-  position: absolute;
-width: 118px;
-height: 38px;
-left: 980px;
-top: 1750px;
-
-background: #72A6C3;
-border-radius: 18px;
-}
 
 
 line{
