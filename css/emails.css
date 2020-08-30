@@ -1,0 +1,79 @@
+box{
+
+position: absolute;
+width: 800px;
+height: 545px;
+left: 336px;
+top: 140px;
+
+background: #72A6C3;
+border-radius: 73px;
+z-index: -10;
+}
+
+h1{
+  position: absolute;
+width: 720px;
+height: 119px;
+top: 170px;
+left: 370px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 68px;
+text-align: center;
+
+color: white;
+
+z-index: 10;
+}
+
+h2{
+
+position: absolute;
+width: 657px;
+height: 54px;
+left: 410px;
+top: 420px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+
+color: #000000;
+}
+
+gobackbox{
+  position: absolute;
+width: 150px;
+height: 50px;
+left: 660px;
+top: 560px;
+
+background: #FFFFFF;
+border-radius: 45px;
+
+}
+
+h3{
+  position: absolute;
+width: 200px;
+height: 41px;
+left: 690px;
+top: 540px;
+z-index: 20;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 41px;
+/* identical to box height */
+
+
+color: #000000;
+}
